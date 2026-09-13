@@ -84,8 +84,10 @@ export const Navbar: React.FC = () => {
               className="w-full h-full object-cover rounded-full"
             />
           </div>
-          <span className="font-heading font-semibold tracking-tight text-sm sm:text-base group-hover:text-cyan-400 transition-colors">
-            Moshiur<span className="text-cyan-400">.</span>
+          <span className="font-heading font-extrabold tracking-wider text-sm sm:text-base flex items-center">
+            <span className="text-white group-hover:text-white transition-colors drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]">MOS</span>
+            <span className="bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-400 bg-clip-text text-transparent group-hover:drop-shadow-[0_0_12px_rgba(6,182,212,0.8)] transition-all">HIUR</span>
+            <span className="text-cyan-400 font-bold animate-pulse">.</span>
           </span>
         </a>
 
